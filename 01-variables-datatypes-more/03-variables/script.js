@@ -44,3 +44,32 @@ console.log(x);
 
 console.log('changing of the value which is declared with const is not possible, example const x = 100, (x = x + 100, this doesn"t works as x is declared by const, read-only)');
 
+const arr = [1, 2, 3, 4];
+
+arr.push(5);
+
+console.log(arr);
+
+const person = {
+     name: 'Leela', 
+};
+
+console.log(person.name);
+
+person.name = 'Sai';
+
+console.log(person.name);
+
+person.email = 'sai@gmail.com'
+
+console.log(person.email);
+
+// Declaring multiple values at once
+
+let a, b, c;
+
+const d = 10, e = 20, f = 30;
+
+console.log(d);
+console.log(e);
+console.log(f);
